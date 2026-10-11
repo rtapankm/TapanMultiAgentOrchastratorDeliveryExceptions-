@@ -1,0 +1,51 @@
+failed attempts, address mismatches, damaged packages, refused deliveries, and weather delays
+
+Key KPIs affected include:
+
+Exception resolution time (constrained by manual triage throughput)
+Escalation accuracy (missed or unnecessary supervisor escalations)
+Customer communication quality and personalization
+Cost per exception (reattempt costs, spoilage write-offs, unnecessary truck rolls)
+Customer retention and lifetime value
+
+
+exception-handling costs, inconsistent service quality, preventable customer churn, and loss of competitive ground to players
+
+
+"/content/drive/MyDrive/Project3LastMileDeliveryException/Datasets Last-Mile Delivery/ground_truth.csv"
+
+
+Table: customers - 12 records
+Attribute	Type	Values / Description
+customer_id	string	Primary key (CUST-001 to CUST-012), Foreign key in delivery logs
+name	string	Customer full name (PII)
+tier	string	STANDARD, PREMIUM, VIP
+preferred_channel	string	SMS, EMAIL
+exceptions_last_90d	integer	Range: 0-6
+active_credit	float	Range: $0.00-$20.00
+
+
+Table: lockers - 6 records
+
+
+
+Attribute	Type	Values / Description
+locker_id	string	Primary key (LOC-001 to LOC-006)
+address	string	Locker street address
+zip_code	string	10001-10006
+capacity_status	string	AVAILABLE, LIMITED, FULL
+operating_hours	string	e.g., "6AM-10PM" or "24 hours"
+max_package_size	string	SMALL, MEDIUM, LARGE
+
+Exception Resolution Playbook
+====================================
+Failed Delivery Attempts
+Address Mismatches
+Damaged Packages
+Refused Deliveries
+Weather Delays
+Locker Reroute Procedures
+Escalation Matrix
+Customer Communication Guidelines
+
+

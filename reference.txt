@@ -1,0 +1,27 @@
+If you want to understand how production-grade multi-agent systems are evaluated, Anthropic’s documentation explains how to design structured evaluation harnesses that test full agent behavior, multi-step reasoning, tool use, and stochastic outputs, using capability and regression suites with automated and human grading.
+
+https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+
+If you want to understand how enterprise agentic systems are validated at scale, AWS explains how to measure component- and system-level performance, monitor task completion and tool accuracy, integrate human oversight, and implement continuous production monitoring for reliability and business alignment.
+
+https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/
+
+
+Agentic AI for Automation
+If you want to understand how to improve multi-step reasoning in language models, this paper introduces self-consistency, a decoding strategy that samples multiple diverse reasoning paths and selects the most consistent final answer. Instead of relying on a single chain-of-thought output, it aggregates answers across reasoning trajectories, leading to significantly improved performance on complex logical and mathematical reasoning benchmarks.
+
+https://arxiv.org/abs/2203.11171
+Agentic AI for Automation
+If you want to understand how to identify and mitigate hallucinations in large language models, this paper formalizes “hallucination” as mismatches between generated content and verifiable facts. It proposes evaluation protocols and benchmark tasks to measure hallucination rates, analyzes contributing factors in model architecture and decoding, and explores techniques for reducing hallucination through better training objectives, auxiliary supervision, and factual grounding.
+https://arxiv.org/abs/2311.12983
+
+If you want to understand how different human-in-the-loop (HITL) configurations influence AI system behavior and accountability, this paper formalises HITL setups using computability theory, categorising them from simple monitoring to deeply interactive human-AI collaboration. It presents a taxonomy of failure modes, highlights the trade-offs between legal responsibility and explainability, and discusses how legal frameworks may overlook important distinctions in safety and oversight.
+
+https://arxiv.org/abs/2505.10426
+
+If you want to understand how to improve multi-step reasoning in language models, this paper introduces self-consistency, a decoding strategy that samples multiple diverse reasoning paths and selects the most consistent final answer. Instead of relying on a single chain-of-thought output, it aggregates answers across reasoning trajectories, leading to significantly improved performance on complex logical and mathematical reasoning benchmarks.
+
+https://arxiv.org/abs/2203.11171
+
+
+
